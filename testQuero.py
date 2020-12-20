@@ -202,9 +202,9 @@ if __name__ == '__main__':
                     'tipo_estabelecimento':'INT',
                     'tipo_movimentacao':'INT',
                     'uf':'INT'}
-    #data = extract_data()
-    #create_tables('test', dictFeat)
-    #bulkInsert(data, 'test', dictFeat)
-    #createIdx('test', 'regiao')
+    data = extract_data()
+    create_tables('test', dictFeat)
+    bulkInsert(data, 'test', dictFeat)
+    createIdx('test', 'regiao')
     createIdx('test', 'idade')
-    test =0
+  
